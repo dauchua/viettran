@@ -24,7 +24,6 @@ RESTY_CONFIG_OPTIONS="\
     --without-http_browser_module \
     --without-http_userid_module \
     --without-http_split_clients_module \
-    --without-http_uwsgi_module \
     --without-http_scgi_module \
     --without-http_referer_module \
      --user=nginx \
