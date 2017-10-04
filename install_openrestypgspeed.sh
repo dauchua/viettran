@@ -36,9 +36,6 @@ RESTY_CONFIG_OPTIONS="\
     --error-log-path=/var/log/nginx/error.log \
     --pid-path=/var/run/nginx.pid \
     --lock-path=/var/run/nginx/nginx.lock \
-    --http-fastcgi-temp-path=/tmp/nginx/fastcgi \
-    --http-proxy-temp-path=/tmp/nginx/proxy \
-    --http-client-body-temp-path=/tmp/nginx/client_body \
     --add-module=/tmp/ngx_pagespeed-${PAGESPEED_VERSION}-beta \
     --with-openssl=/tmp/openssl-${RESTY_OPENSSL_VERSION} \
     "
